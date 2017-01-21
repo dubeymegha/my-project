@@ -10,6 +10,7 @@ namespace basic_practice_problems
     {
         static void Main(string[] args)
         {
+            Console.WriteLine( "This is modified");
             Console.WriteLine("Enter symbol");
             int symbol = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter width");
